@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@font-face {
+  font-family: "Kino";
+  src: url("./fonts/Kino/Kino-Regular.otf") format("otf"),
+    url("./fonts/Kino/Kino-Regular.otf") format("truetype"),
+    url("./fonts/Kino/Kino-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sf";
+  src: url("./fonts/Kino/Kino-Regular.otf") format("otf"),
+    url("./fonts/Kino/Kino-Regular.otf") format("truetype"),
+    url("./fonts/Kino/Kino-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./fonts/sanFrancisco/SF-Pro-Display-Bold.otf")format("otf"),
+    url("./fonts/sanFrancisco/SF-Pro-Display-Medium.otf") format("otf"),
+    url("./fonts/sanFrancisco/SF-Pro-Display-Regular.otf")format("truetype"),
+    url("./fonts/sanFrancisco/SF-Pro-Display-Semibold.otf")format("otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+}
+.grap{
+    max-width: 1320px;
+    margin: 0 auto;
+    height: 1090px;
+}
+.zaly-cont{
+    max-width: 1320px;
+    margin: 0 auto;
+    height: 980px;
+}
+.catalog{
+    max-width: 1320px;
+    margin: 0 auto;
+    height: 800px;
+}
+.rating{
+    max-width: 1320px;
+    margin: 0 auto;
+    height: 1200px;
+}
+
+
+
+
+
+
+.container{
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+}
+.flexItem{
+    display: flex;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-4{
+    width: 33.3%;
+    padding: 0 15px;
+}
+.col-6{
+    width: 50%;
+    padding: 0 15px;
+}
+.col-3{
+    width: 25%;
+    padding: 0 15px;
+}
+
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+button{
+    cursor: pointer;
+    
+}
+
+@media screen and (max-width: 1400px) {
+    .container{
+        max-width: 1140px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+    .col-6{
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container{
+        max-width: 100%;
+        padding: 0 10px;
+    }
+}
