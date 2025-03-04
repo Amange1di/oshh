@@ -1,5 +1,5 @@
 import React from 'react';
-import "./CardPartners.scss";
+import "./cardPartners.scss";
 import librarypartnersicon from "../../shared/libraryimg/librarypartnersicon.png";
 
 export function CardPartners() {
