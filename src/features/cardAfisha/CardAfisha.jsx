@@ -1,4 +1,4 @@
-import "./CardAfisha.scss";
+import "./cardAfisha.scss";
 
 export const CardAfisha = ({ image, title, date, description }) => {
   return (
