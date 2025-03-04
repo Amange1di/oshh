@@ -1,5 +1,5 @@
 import React from "react";
-import "./CardNews.scss";
+import "./cardNews.scss";
 
 const newsItems = [
   {
