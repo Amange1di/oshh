@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./CardAfisha.scss";
+import "./сardAfisha.scss";
 
 export const CardAfisha = ({ image, title, date, description }) => {
   return (
