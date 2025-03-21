@@ -15,7 +15,6 @@ import {
   AboutPage,
   SupportPage,
   ElectronicPage,
-  ElectronicDetail,
   ProfessionalPage
 } from '../../pages';
 import { Footer, Header, Breadcrumb } from '../../widgets';
@@ -85,11 +84,6 @@ export const routesArr = [
     path: '/electronic',
     title: "Электронная библиотека",
     element: <ElectronicPage />
-  },
-  {
-    path: '/electronic-detail/:id',
-    title: "Электронная библиотека",
-    element: <ElectronicDetail />
   },
   {
     path: '/professional',

@@ -16,11 +16,11 @@ export { History } from './AboutPageComponents/history/History'
 export { AfishaDetailSection } from "./afishaSection/afishaDetailSections/AfishaDetailSection"
 export { AfishaBanner } from "./afishaSection/afishaBanner/AfishaBanner"
 export {AfishaEvents} from "./afishaSection/afishaEvents/AfishaEvents"
-export { NewsSection } from './NewsPageComponents/NewsBanner/NewsSection';
 export { AfishaEvent } from './HomePageComponents/afishaEvent/AfishaEvent';
 export { ProjectBanner } from './ourProjects/ProjectBanner/ProjectBanner';
 export { MainProjects } from './ourProjects/MainProject/MainProjects';
 export { AmericanCorner } from './ourProjects/AmericanCorner/AmericanCorner';
+
 
 export { SupportBanner } from './SupportPageComponents/SupportBanner/SupportBanner';
 export { SupportPartners } from './SupportPageComponents/SupportPartners/SupportPartners';
@@ -40,9 +40,12 @@ export { Sidebar } from "./professionalComponents/sidebar/Sidebar";
 
 export { CatalogBanner } from './catalogSection/catalogBanner/CatalogBanner';
 export { CatalogInput } from './catalogSection/catalogInput/CatalogInput';
+export {HomeNews}  from "./HomePageComponents/homeNews/HomeNews"
+export {NewsBanner} from "./NewsPageComponents/NewsBanner/NewsBanner"
+export { NewsBooksUpdate} from "./NewsPageComponents/NewsBooksUpdate/NewsBooksUpdate"
+export {NewsAdvertisment} from "./NewsPageComponents/NewsAdvertisment/NewsAdvertisment"
 
+export {Rating} from './readerPageComponents/rating/Rating';
+export {OurProjectDetail} from './ourProjects/ourProjectDetail/OurProjectDetail';
 
-
-
-
-
+export { NewsDeteilSection } from './NewsPageComponents/NewsDeteil/NewsDeteilSection';

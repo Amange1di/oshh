@@ -1,18 +1,30 @@
 import Rectangle from '../../../shared/img/Rectanglel.jpg';
+import rectanglebanner from '../../../shared/img/rectanglebanner.png';
 import './SupportBanner.scss';
 
 export const SupportBanner = () => {
+  const supportData = [
+    {
+      id: 1,
+      title: 'ПОДДЕРЖИТЕ  РАЗВИТИЕ  ЗНАНИЙ И  КУЛЬТУРЫ',
+      image: rectanglebanner,
+      description: 'Библиотека имени Токтогула Сатылганова – это не только хранилище знаний, но и динамично развивающееся образовательное и культурное пространство. Поддержка библиотеки играет ключевую роль в ее развитии, позволяя нам предоставлять читателям доступ к ценным ресурсам, организовывать мероприятия и внедрять новые технологии.'
+    }
+  ];
+
   return (
     <div className="support">
-        <div className="rectangle">
-          <h1 className="title_rectangle">ПОДДЕРЖИТЕ <br /> РАЗВИТИЕ <br /> ЗНАНИЙ И <br /> КУЛЬТУРЫ</h1>
-
+      {supportData.map((item) => (
+        <div className="rectangle" key={item.id}>
+          <div className="support_text">
+            <h1 className="title_rectangle">{item.title}</h1>
+          </div>
           <div className="rectangle_sup">
-            <img className="rectangle_img" src={Rectangle} alt="" />
-            <p className="rectangle_p">Библиотека имени Токтогула Сатылганова – это не только хранилище <br /> знаний, но и динамично развивающееся образовательное и культурное <br /> пространство. Поддержка библиотеки играет ключевую роль в ее <br /> развитии, позволяя нам предоставлять читателям доступ к ценным <br /> ресурсам, организовывать мероприятия и внедрять новые технологии.</p>
+            <img className="rectangle_img" src={item.image} alt="" />
+            <p className="rectangle_p">{item.description}</p>
+          </div>
         </div>
-        </div>
-        
+      ))}
     </div>
   );
 };
