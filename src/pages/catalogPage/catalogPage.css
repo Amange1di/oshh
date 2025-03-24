@@ -1,0 +1,30 @@
+.catalog_page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+.catalog_page .filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 30px;
+}
+.catalog_page .filter_input,
+.catalog_page .filter_btn {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 0.25px;
+}
+.catalog_page .catalog_table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.catalog_page .catalog_table th,
+.catalog_page .catalog_table td {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+}
+.catalog_page .catalog_table thead {
+  background-color: #f3f4f6;
+}
+.catalog_page .catalog_table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}/*# sourceMappingURL=catalogPage.css.map */

@@ -1,0 +1,122 @@
+.newDeteil_title {
+  color: #105B60;
+  width: 1034px;
+  height: 92px;
+  top: 230px;
+  left: 60px;
+  font-family: Kino;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+.newDeteil_group {
+  display: flex;
+  padding: 20px 0px;
+}
+.newDeteil_group_img {
+  max-width: 650px;
+  width: 100%;
+  height: 460px;
+  top: 400px;
+  left: 60px;
+  border-radius: 15px;
+}
+.newDeteil_group_img img {
+  width: 100%;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.newDeteil_group_text {
+  width: 40%;
+  margin-left: 15px;
+}
+.newDeteil_group_text h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 28px;
+}
+.newDeteil_group_text_description {
+  border-top: 1px solid rgba(90, 92, 98, 0.8);
+  margin-top: 10px;
+  max-width: 100%;
+  width: 650px;
+  top: 413px;
+  left: 730px;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.newDeteil_group_text_description_part {
+  width: 100%;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .newDeteil_title {
+    max-width: 100%;
+  }
+  .newDeteil_group {
+    flex-direction: column;
+  }
+  .newDeteil_group_img {
+    width: 100%;
+  }
+  .newDeteil_group_text {
+    width: 100%;
+  }
+  .newDeteil_group_text__description {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .newDeteil h1 {
+    font-size: 25px;
+  }
+  .newDeteil_title {
+    max-width: 100%;
+  }
+  .newDeteil_group {
+    flex-direction: column;
+  }
+  .newDeteil_group_img {
+    width: 100%;
+  }
+  .newDeteil_group_text {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .newDeteil h1 {
+    font-size: 25px;
+  }
+  .newDeteil_title {
+    max-width: 100%;
+  }
+  .newDeteil_group {
+    flex-direction: column;
+  }
+  .newDeteil_group_img {
+    width: 100%;
+  }
+  .newDeteil_group_text {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .newDeteil h1 {
+    font-size: 18px;
+  }
+  .newDeteil_title {
+    max-width: 100%;
+  }
+  .newDeteil_group {
+    flex-direction: column;
+  }
+  .newDeteil_group_img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=newsDeteilSection.css.map */
